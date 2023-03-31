@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="form">
+        <form onsubmit="validarForm(event)">
+    <div class="div_inputs" id="inputs">
+        <h1 id="title">Formulário</h1>
+
+        <label for="Name" class="text"><i class="fa-solid fa-user"></i> Nome</label>
+
+        <input type="text" name="name" id="inputNome" placeholder="Digite seu nome" class="form_text" id="nome"/>
+
+        <label for="Email" class="text"><i class="fa-solid fa-envelope"></i> Email</label>
+
+        <input type="email" name="email" id="inputEmail" placeholder="Digite seu email" class="form_text" id="email"/>
+
+        <label for="Senha" class="text"><i class="fa-solid fa-key"></i> Senha</label>
+        <input type="password" name="inputSenha" id="inputSenha" placeholder="Digite sua senha" class="form_text" id="senha"/>
+        <button type="submit" id="button">Enviar</button>
+    </div>
+        </form>
+    </div>
+
+<script src="./style.css"></script>
+</body>
+</html>
